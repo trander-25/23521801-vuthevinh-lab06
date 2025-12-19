@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "Understanding Next.js Rendering Strategies",
+    "content": "Next.js offers multiple rendering strategies including Client-Side Rendering (CSR), Server-Side Rendering (SSR), Static Site Generation (SSG), and Incremental Static Regeneration (ISR). Each strategy has its own use cases and benefits. SSG is perfect for content that doesn't change often, providing the fastest possible load times. SSR is ideal for personalized content that needs to be fresh on every request. ISR combines the best of both worlds.",
+    "author": "Vu The Vinh",
+    "date": "2025-01-15"
+  },
+  {
+    "id": "2",
+    "title": "App Router vs Pages Router",
+    "content": "The App Router, introduced in Next.js 13, represents a paradigm shift in how we build Next.js applications. It introduces React Server Components, allowing us to render components on the server without sending JavaScript to the client. This results in smaller bundle sizes and faster initial page loads. The Pages Router, while still supported, uses the traditional approach where all components are client-side by default.",
+    "author": "Vu The Vinh",
+    "date": "2025-01-16"
+  },
+  {
+    "id": "3",
+    "title": "Optimizing Images in Next.js",
+    "content": "The next/image component is a powerful tool for automatic image optimization. It automatically serves images in modern formats like WebP and AVIF, implements lazy loading, prevents layout shift by reserving space, and can resize images on-demand. This leads to significant improvements in Core Web Vitals, particularly Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS).",
+    "author": "Vu The Vinh",
+    "date": "2025-01-17"
+  },
+  {
+    "id": "4",
+    "title": "API Routes and Middleware",
+    "content": "Next.js allows you to build full-stack applications by providing API routes and middleware capabilities. API routes enable you to create serverless functions that handle HTTP requests. Middleware runs before a request is completed, allowing you to modify the response, redirect, or add headers. This is perfect for implementing authentication, logging, and A/B testing.",
+    "author": "Vu The Vinh",
+    "date": "2025-01-18"
+  },
+  {
+    "id": "5",
+    "title": "React Server Components Deep Dive",
+    "content": "React Server Components (RSC) are a new type of component that renders exclusively on the server. They can access backend resources directly, such as databases and file systems, without exposing sensitive data to the client. Server Components don't use hooks like useState or useEffect, and they don't send JavaScript to the browser, resulting in smaller bundle sizes and faster page loads.",
+    "author": "Vu The Vinh",
+    "date": "2025-01-19"
+  }
+]
